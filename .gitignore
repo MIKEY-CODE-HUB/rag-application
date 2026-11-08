@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment secrets
+.env
+
+# Chroma database binaries
+data/chroma_db/
+*.bin
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db

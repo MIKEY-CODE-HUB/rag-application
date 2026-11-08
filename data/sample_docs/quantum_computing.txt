@@ -1,0 +1,10 @@
+# Quantum Computing Overview
+
+Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.
+Classical computers use bits that represent either 0 or 1.
+In contrast, quantum computers use qubits which can exist in a state of superposition.
+Superposition allows qubits to be in a combination of 0 and 1 simultaneously.
+Another key principle is entanglement, where quantum particles become inextricably linked regardless of distance.
+Key quantum algorithms include Shor's algorithm for prime factorization and Grover's algorithm for unstructured database search.
+Leading companies investing in quantum hardware include Google, IBM, Rigetti, and IonQ.
+Cryogenic refrigeration systems are used to maintain superconducting qubits at near absolute zero temperatures.
