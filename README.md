@@ -1,10 +1,25 @@
 # Enterprise Retrieval-Augmented Generation (RAG) System
 
-A production-grade, modular RAG application featuring decoupled **Document Ingestion** and **Chatbot Query** pipelines, local **Hugging Face** dense vector embeddings, persistent **ChromaDB** storage, **Gemini API** context-grounded reasoning, and a clean **Streamlit** web interface.
+A comprehensive repository containing two full-stack RAG implementations:
+1. **Newton School Assignment**: Dockerized Qdrant Vector Database + n8n automation workflows + Gemini LLM.
+2. **Production Python RAG Application**: Decoupled Document Ingestion & Chatbot Query pipelines with local Hugging Face embeddings (`all-MiniLM-L6-v2`), persistent ChromaDB, Google Gemini API, and Streamlit frontend.
 
 ---
 
-## Architecture Overview
+## 🎓 Newton School RAG Assignment (Docker + Qdrant + n8n)
+All assignment files and configurations are organized in the [`newton-rag-n8n/`](./newton-rag-n8n) directory:
+- **Student Name**: Harshit Shukla
+- **Roll Number**: `2102508751` (Last 4 digits: `8751`)
+- **Workflow Name**: `RAG_2102508751_Harshit_Shukla`
+- **Docker Compose**: [`newton-rag-n8n/docker-compose.yml`](./newton-rag-n8n/docker-compose.yml) (Qdrant on `6333`, n8n on `5678`)
+- **Ingestion Workflow**: [`newton-rag-n8n/workflows/RAG_2102508751_Harshit_Shukla_Ingestion.json`](./newton-rag-n8n/workflows/RAG_2102508751_Harshit_Shukla_Ingestion.json)
+- **Chatbot Workflow**: [`newton-rag-n8n/workflows/RAG_2102508751_Harshit_Shukla_Chatbot.json`](./newton-rag-n8n/workflows/RAG_2102508751_Harshit_Shukla_Chatbot.json)
+- **Personal Proof Sentence**: *"The IT helpdesk code for Harshit Shukla (2102508751) is 8751."*
+- **Step-by-Step Recording Guide**: [`newton-rag-n8n/RECORDING_GUIDE.md`](./newton-rag-n8n/RECORDING_GUIDE.md)
+
+---
+
+## 🐍 Python RAG Application Architecture
 
 ```
                                   USER QUERY / UPLOAD
