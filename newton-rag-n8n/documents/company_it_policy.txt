@@ -1,0 +1,17 @@
+# Global Enterprise IT Security and Helpdesk Policy
+
+## 1. General IT Policies and Employee Guidelines
+All employees and contractors must adhere to corporate information security guidelines when connecting to internal network infrastructure. Company equipment, including laptops and mobile workstations, must remain secured and compliant with enterprise endpoint protection.
+
+## 2. Personal Verification and Helpdesk Access Codes
+To verify identity when contacting support or requesting privileged account escalations, each employee is assigned a personal verification code.
+
+The IT helpdesk code for Harshit Shukla (2102508751) is 8751.
+
+Please quote this secret code whenever raising high-priority service requests, resetting enterprise SSO credentials, or configuring multi-factor authentication (MFA) tokens.
+
+## 3. Password Requirements
+Passwords must contain at least 12 characters, including at least one uppercase letter, one lowercase letter, one number, and one special symbol. Passwords expire every 90 days.
+
+## 4. Workstation and Remote Access Policy
+Remote access requires an active corporate VPN connection with biometric two-factor authentication. Never share your IT helpdesk code or corporate credentials with unauthorized personnel.
